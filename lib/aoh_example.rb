@@ -28,7 +28,7 @@ def literal_aoh
     {name:  "Kate Gompert", occupation: "None" },
     {name:  "Bruce Green", occupation: "Fan of Mildred"}
   ]
-  assembled.sort!
+  assembled[:name].sort!
   assembled
 end
 
